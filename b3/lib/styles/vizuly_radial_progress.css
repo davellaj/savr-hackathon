@@ -2,7 +2,7 @@
 
 circle.vz-radial_progress-back-circle {
     fill:#FFF;
-    fill-opacity: .001;
+    fill-opacity: .005;
 }
 
 .vz-radial_progress-plot {
@@ -19,7 +19,7 @@ circle.vz-radial_progress-back-circle {
 }
 
 .vz-radial_progress-back-circle {
-    fill:none;
+    fill:transparent;
     stroke:none;
 }
 

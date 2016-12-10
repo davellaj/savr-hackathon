@@ -18,9 +18,9 @@
 <body onload="initialize()" style="font-family: Raleway, Helvetica, Arial">
 
     <div id="viz_container"
-         style="border:1px solid #777; width:600px; height:600px;
-         margin: 0px auto; margin-top:50px">
-        <div id="viz_div" style="margin:0px auto; width:300px"></div>
+         style="border:0px; solid: #777; width:325px; height:445px;
+         margin: 0px; margin-top:0px">
+        <div id="viz_div" style="margin: 10px; margin-top:-155px; width:300px solid:#777"></div>
     </div>
 
 </body>
@@ -31,7 +31,7 @@
 
         var viz = vizuly.component.radial_progress(document.getElementById("viz_div"));
 
-        viz.data(80)                        // Current value
+        viz.data(60)                        // Current value
             .height(600)                    // Height/Diameter of component
             .min(0)                         // min value
             .max(100)                       // max value
